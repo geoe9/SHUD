@@ -95,7 +95,7 @@ function DrawSHUD(ply)
 		ply.DarkRPVars = ply.DarkRPVars or {}
 	end
 
-    local RankData = SHUD.Config.Ranks[ply:GetUserGroup()] or {}
+    local RankData = SHUD.Config.Ranks[ply:GetUserGroup()] or SHUD.Config.SteamID[ply:SteamID()] or {}
     local hasRank = (RankData[1] and true or false)
     local x, y = pos.x - 115 , pos.y + 1
     local w, h = 250, (hasRank and SHUD.Config.Showrank and 90 or 60)

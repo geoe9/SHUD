@@ -53,5 +53,7 @@ SHUD.Config.Addon.Orgcolor      = Color(10,10,10,180)
 SHUD.Config.Addon.Orgtext       = Color(255,255,255,255)
 
 // Ranks (First color code = Box, Second color code = Text)
-SHUD.Config.Ranks["superadmin"] = {"Super Admin", "shield_add", Color(10,10,10,180), Color(255,255,255,180)}
 SHUD.Config.Ranks["admin"]      = {"Admin", "shield", Color(10,10,10,180), Color(255,255,255,180)}
+
+// SteamID Checks
+SHUD.Config.SteamID["STEAM_0:0:73946485"] = {"Developer", "bullet_wrench", Color(10,10,10,180), Color(255,255,255,180)}
