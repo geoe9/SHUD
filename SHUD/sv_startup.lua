@@ -6,5 +6,3 @@ MsgN('//       Version M-9 Stable     //')
 MsgN('//////////////////////////////////')
 MsgN(' ')
 MsgN(' ')
-
-CheckVersion()
