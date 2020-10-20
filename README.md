@@ -3,7 +3,6 @@
 ##### This addon requires DarkRP and the DarkRP Modification addon. You can find them here https://github.com/FPtje
 
 # Credits
-- geo - Current maintainer
 - mindfulhacker - Previous maintainer of SHUD
 - Samuel - Original creator of SHUD
 - David (aka Konth) - Updated 2.0 and 3.2
